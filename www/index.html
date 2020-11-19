@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reloj digital</title>
+
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <div id="bg">
+    <div id="border">
+
+      <div id="clock">
+
+        <div id="info">
+          <h1 id="time"></h1>
+          <h2 id="date"></h2>
+        </div>
+
+        <div id="bars">
+          <div class="bar">
+            <div class="seconds"></div>
+          </div>
+          <div class="bar">
+            <div class="minutes"></div>
+          </div>
+          <div class="bar">
+            <div class="hours"></div>
+          </div>
+        </div>
+
+        <div id="alarm">
+          <form>
+            <label for="alarmTimer" type="submit">Alarma:</label>
+            <input type="time" name="alarmHour" id="alarmTimer">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>
